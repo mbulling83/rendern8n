@@ -1,7 +1,7 @@
 FROM node:lts-alpine
 
 # pass N8N_VERSION Argument while building or use default
-ARG N8N_VERSION=0.193.5: :bookmark: Release n8n-core@0.133.3, n8n-editor-ui@0.159.4, n8n-node-…
+ARG N8N_VERSION=0.195.0
 
 # Update everything and install needed dependencies
 RUN apk add --update graphicsmagick tzdata
